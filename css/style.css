@@ -1,0 +1,171 @@
+/*******************Header start*********************/
+body{
+	margin: 0;
+	padding: 0;
+}
+header{
+	background-color: white;
+}
+
+.wrapper {
+	overflow: hidden;
+	width: 90%;
+	margin: 0 auto;
+	padding: 7px 0 10px;
+
+}
+.logo {
+	width: 20%;
+	float: left;
+}
+
+.logo img{
+	width: 100%
+}
+
+.menu {
+	width: 70%;
+	float: right;
+	margin-top: 4px;
+}
+/*
+.menu ul{
+}*/
+.menu ul li{
+	list-style: none;
+	float: left;
+}
+.menu ul li a{
+	display: inline-block;
+	font-family: sans-serif;
+	font-size: 14px;
+	color: #225672;
+	text-decoration: none;
+	padding: 0 40px;
+	text-transform: uppercase;
+}
+/******************Header end**********************/
+
+/******************Banner start**********************/
+.Banner{}
+.banner-bg-img{
+	background-image: url(../images/home-banner.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+.b-home{
+	width: 25%;
+	margin-top: 90px;
+	margin-bottom: 200px;
+	padding: 30px 25px 25px;
+	background-color: rgba(11, 37, 52, .7);
+}
+.b-home h1{
+	font-family: sans-serif;
+	font-weight: 300;
+	font-size: 35px;
+	color: white;
+	text-transform: uppercase;
+	margin-top: 0; 
+	margin-bottom: 15px;
+}
+.b-home p{
+	font-family: sans-serif;
+	font-weight: 400;
+	font-size: 17px;
+	color: white;
+	margin-top: 0;
+	margin-bottom: 20px;
+	line-height: 25px;
+}
+.b-home button{
+	width: 100px;
+	height: 32px;
+	border: none;
+	border-radius: 5px;
+	font-family: sans-serif;
+	font-weight: 400;
+	font-size: 12px;
+	color: white;
+	background-color: rgba(11, 37, 52, .8);
+	cursor: pointer;
+}
+/******************Banner end***********************/
+ 
+ /******************Survice start******************/
+ .wrapper-survice{
+ 	overflow: hidden;
+	width: 84.9%;
+	margin: 0 auto;
+	padding: 50px  35px;
+	background-color: #f5f6fa;
+ }
+ .single-item{
+ 	width: 27%;
+ 	text-align: center;
+ 	float: left;
+ 	margin: 0 35px;
+ }
+ .single-item h2{
+ 	font-family: sans-serif;
+	font-weight: 400;
+	font-size: 30px;
+	color: rgba(123, 95, 38, .5);
+	text-transform: capitalize;
+	margin-top: 0; 
+	margin-bottom: 10px;
+ }
+ .single-item img{
+ 	width: 100%;
+
+ }
+ .single-item p{
+ 	font-family: sans-serif;
+	font-size: 13px;
+	color: #0B1423;
+	margin-top: 30px; 
+	margin-bottom: 30px;
+	line-height: 25px;
+ }
+ .single-item button{
+	border: none;
+	border-radius: 5px;
+	font-family: sans-serif;
+	font-weight: 400;
+	font-size: 12px;
+	color: white;
+	background-color: #2C6C84;
+	cursor: pointer;
+	padding: 8px 25px;
+ }
+/******************Survice end******************/
+
+/******************Footer start******************/
+.footer{
+
+	background-color: white;
+}
+.footer-wrapper{
+	width: 90%;
+	text-align: center;
+	margin: 0 auto;
+	padding: 30px 0 40px;
+	background-color: #f5f6fa;
+}
+.footer-wrapper h2{
+	font-family: sans-serif;
+	font-size: 20px;
+	font-weight: 300;
+	text-transform: capitalize;
+	color: #225672;
+}
+.footer-wrapper p{
+	color: #225672;
+	font-size: 17px;
+}
+.footer-wrapper img{
+    width: 3%;
+    padding: 0 5px;
+}
+/******************Footer end******************/
